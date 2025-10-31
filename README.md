@@ -1,4 +1,4 @@
-![logo](https://cdn.jsdelivr.net/gh/hwangzhun/Sim-Racing-Fuel-Calculator@main/icon.png)
+![logo](https://cdn.jsdelivr.net/gh/hwangzhun/Sim-Racing-Fuel-Calculator@main/icon-thumbnails-2.png)
 
 # 模拟赛车燃油计算器
 
