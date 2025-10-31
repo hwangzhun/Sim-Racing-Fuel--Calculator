@@ -1,3 +1,5 @@
+![logo]([logo](https://cdn.jsdelivr.net/gh/hwangzhun/Sim-Racing-Fuel--Calculator@main/icon.png "logo")
+
 # 模拟赛车燃油计算器
 
 一个轻量、纯前端的模拟赛车燃油计算器，帮助你在 ACC、iRacing、Assetto Corsa Evo、AMS2 等任意模拟赛车中快速估算：
