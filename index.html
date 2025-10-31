@@ -4,31 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>模拟赛车燃油计算器</title>
-    <link rel="icon" href="icon.png" type="image/png">
-    <link rel="shortcut icon" href="icon.png" type="image/png">
-    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="icon" href="icon-thumbnails.png" type="image/png">
+    <link rel="shortcut icon" href="icon-thumbnails.png" type="image/png">
+    <link rel="apple-touch-icon" href="icon-thumbnails-2.png">
     <meta name="theme-color" content="#d32f2f">
     <meta property="og:title" content="模拟赛车燃油计算器">
     <meta property="og:description" content="快速计算任意模拟赛车的正确燃油量、进站次数与起始油量。">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="icon.png">
+    <meta property="og:image" content="icon-thumbnails-2.png">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="模拟赛车燃油计算器">
     <meta name="twitter:description" content="快速计算燃油量与进站策略。">
-    <meta name="twitter:image" content="icon.png">
+    <meta name="twitter:image" content="icon-thumbnails-2.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <main class="container">
         <div class="header-row">
-            <h1 id="title">模拟赛车燃油计算器</h1>
-            <label class="lang-control">
-                <span class="visually-hidden" id="langLabel">语言</span>
-                <select id="langSelect" aria-labelledby="langLabel">
-                    <option value="zh">中文</option>
-                    <option value="en">English</option>
-                </select>
-            </label>
+            <div class="logo-row">
+                <img src="icon-thumbnails-3.png" alt="Sim Racing Fuel Calculator" class="site-logo" width="48" height="48">
+            </div>
+            <div class="title-row">
+                <h1 id="title">模拟赛车燃油计算器</h1>
+                <label class="lang-control">
+                    <span class="visually-hidden" id="langLabel">语言</span>
+                    <select id="langSelect" aria-labelledby="langLabel">
+                        <option value="zh">中文</option>
+                        <option value="en">English</option>
+                    </select>
+                </label>
+            </div>
         </div>
         <p id="introNote" class="note">快速计算任何模拟赛车游戏（包括 ACC、iRacing、Assetto Corsa Evo、AMS2 等）的正确燃油量。只需输入每圈燃油量、比赛距离和油箱容量，即可查看需要进站次数和起始燃油量。</p>
 
